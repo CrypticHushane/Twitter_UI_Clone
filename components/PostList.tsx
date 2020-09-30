@@ -9,16 +9,17 @@ const PostList = (props:any):any => {
     
     return (
         <View style={styles.hr}>
-            <View style={styles.layout}>
+            <View style={styles.space}/>
+            <View style={styles.row}>
                 <EvilIcons name="user" size={100} color={tintColorDark} />
-                <View style={styles.layout}>
-                    <Text style={{ color: tintColorDark, padding:10}}>Testing</Text>
-                    <Text style={{ color: tintColorDark, padding:10}}>Testing Name</Text>
+                <Text style={styles.name}>{props.name}</Text>
+                    <Text style={styles.name}>{props.username}</Text>
+                <View style={styles.column}>
+                    <Text style={{ color:tintColorDark}}>{props.content}</Text>
                 </View>
-                <Text style={styles.content}>Helllooooooooooooooo</Text>
+                
             </View>
-            
-            
+            <View style={styles.space}/>
         </View>
     )
 }
@@ -31,21 +32,29 @@ const styles = StyleSheet.create({
         top: 11,
         borderBottomColor: tintColorDark,
         borderBottomWidth: 1,
-        borderTopColor: tintColorDark,
-        borderTopWidth:1,
       },
       space: {
           padding:10,
       },
-      layout: {
+      row: {
           flexDirection: "row",
           justifyContent: "flex-start",
           
       },
-      content: {
-        flexDirection: "column-reverse",
-        alignContent: "flex-end",
-        color: tintColorDark
+      column: {
+        flex: 1,
+        flexDirection: "column",
+        alignContent: "space-between",
+        color: tintColorDark,
+        position: "absolute",
+        paddingLeft: 113,
+        paddingTop:40,
+        flexWrap: "wrap"
+        
+    },
+    name: {
+        color: tintColorDark, 
+        padding:10,
         
     }
 })

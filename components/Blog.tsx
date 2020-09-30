@@ -1,80 +1,80 @@
 export default [
     {
-        id:"1",
-        name:"User1",
+        id:1,
+        name:"Shangzzz",
         username: "@somerandome1",
         title : "Twitter Post 1",
         content: "Content one"
     },
     {
-        id:"2",
-        name:"User2",
+        id:2,
+        name:"Shangooo",
         username: "@somerandome2",
         title : "Twitter Post 2",
         content: "Content two"
     },
     {
-        id:"3",
-        name:"User3",
+        id:3,
+        name:"Janet",
         username: "@somerandome3",
         title : "Twitter Post 3",
         content: "Content"
     },
     {
-        id:"4",
-        name:"User4",
+        id:4,
+        name:"Peezhead",
         username: "@somerandome4",
         title : "Twitter Post 4",
         content: "Content"
     },
     {
-        id:"5",
-        name:"User5",
+        id:5,
+        name:"MiDunceYf",
         username: "@somerandome5",
         title : "Twitter Post 5",
         content: "Content"
     },
     {
-        id:"6",
-        name:"User6",
+        id:6,
+        name:"Home_and_hopeless",
         username: "@somerandome6",
         title : "Twitter Post 6",
         content: "Content"
     },
     {
-        id:"7",
-        name:"User7",
-        username: "@somerandome7",
+        id:7,
+        name:"SeeDiWish",
+        username: "@mavsfanforlife",
         title : "Twitter Post 7",
-        content: "Content"
+        content: "Luka is next uP"
     },
     {
-        id:"8",
-        name:"User8",
-        username: "@somerandome8",
+        id:8,
+        name:"Ifyuhnahseh....",
+        username: "@amongusistrash",
         title : "Twitter Post 8",
-        content: "Content"
+        content: "Meet me at electrical"
     },
     {
-        id:"9",
-        name:"User9",
-        username: "@somerandome9",
+        id:9,
+        name:"Cyaamekupnuhmore",
+        username: "@animestan50001",
         title : "Twitter Post 9",
-        content: "Content"
+        content: "What do you call an object without content..."
     },
     {
-        id:"10",
-        name:"User10",
-        username: "@somerandome10",
+        id:10,
+        name:"SecondToLast",
+        username: "@tekwehmiself",
         title : "Twitter Post 10",
-        content: "Content"
+        content: "And to think that I can follow through with this"
     },
     {
-        id:"11",
-        name:"User10",
-        username: "@somerandome10",
+        id:11,
+        name:"Last",
+        username: "@clueLess9274",
         title : "Twitter Post 11",
-        content: "Content"
+        content: "Dawq mi nah nuh sense but this addi best mi can do right now"
     },
     
 ];
