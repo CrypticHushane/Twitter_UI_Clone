@@ -4,28 +4,28 @@ export default [
         name:"Shangzzz",
         username: "@somerandome1",
         title : "Twitter Post 1",
-        content: "Content one"
+        content: "DGYW - Jamaican Anthem"
     },
     {
         id:2,
         name:"Shangooo",
         username: "@somerandome2",
         title : "Twitter Post 2",
-        content: "Content two"
+        content: "Eminem nh nawmal at allll"
     },
     {
         id:3,
         name:"Janet",
         username: "@somerandome3",
         title : "Twitter Post 3",
-        content: "Content"
+        content: "Mi feel mi need sleep more than skl"
     },
     {
         id:4,
         name:"Peezhead",
         username: "@somerandome4",
         title : "Twitter Post 4",
-        content: "Content"
+        content: "anything as long as it makes 0 sense"
     },
     {
         id:5,
@@ -60,21 +60,21 @@ export default [
         name:"Cyaamekupnuhmore",
         username: "@animestan50001",
         title : "Twitter Post 9",
-        content: "What do you call an object without content..."
+        content: "What do you call ..."
     },
     {
         id:10,
         name:"SecondToLast",
         username: "@tekwehmiself",
         title : "Twitter Post 10",
-        content: "And to think that I can follow through with this"
+        content: "And to think that I can..."
     },
     {
         id:11,
         name:"Last",
         username: "@clueLess9274",
         title : "Twitter Post 11",
-        content: "Dawq mi nah nuh sense but this addi best mi can do right now"
+        content: "Ballgameeeee!!!!!!!"
     },
     
 ];

@@ -7,19 +7,27 @@ import { Text, View } from '../components/Themed';
 
 import Blog from '../components/Blog';
 import { Avatar, ListItem } from 'react-native-elements';
-import { FlatList } from 'react-native-gesture-handler';
+import { FlatList, TouchableOpacity } from 'react-native-gesture-handler';
 
 const HomeScreen = () => {
 
   console.log(Blog);
 
     return (
-        <View>
+        <View> 
           <FlatList 
               keyExtractor={ (index) => index.id.toString()}
               data={Blog}
-              renderItem={ ({ item }) => <PostList name={item.name} username={item.username} content={item.content}/> }
+              renderItem={ ({ item }) => (
+              <>
+                <TouchableOpacity>
+                  <PostList name={item.name} username={item.username} content={item.content}/>
+                </TouchableOpacity>
+                <View style={styles.hr}/>
+              </>
+              ) }
           /> 
+          
         </View>
     )
 }
@@ -27,6 +35,12 @@ const HomeScreen = () => {
 export default HomeScreen
 
 const styles = StyleSheet.create({
+  hr: {
+    position: 'relative',
+    top: 11,
+    borderBottomColor: '#000066',
+    borderBottomWidth: 1,
+  },
     container: {
       flex: 1,
       alignItems: 'center',
