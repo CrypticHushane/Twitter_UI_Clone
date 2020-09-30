@@ -141,7 +141,8 @@ const NotificationScreenStack = createStackNavigator<NotificationParamList>();
 function NotificationNavigator(){
   return (
     <NotificationScreenStack.Navigator>
-      <NotificationScreenStack.Screen name="NotificationScreen" component={NotificationScreen} options={{ headerTitle: "Notifications" }}/>
+      <NotificationScreenStack.Screen name="NotificationScreen" component={NotificationScreen} options={{ headerTitle: "Notifications", headerLeft: Profile,
+          headerRight: SettingsIcon, }}/>
     </NotificationScreenStack.Navigator>
   )
 }
@@ -151,7 +152,8 @@ const MessageScreenStack = createStackNavigator<MessageParamList>();
 function MessageNavigator(){
   return (
     <MessageScreenStack.Navigator>
-      <MessageScreenStack.Screen name="MessageScreen" component={MessageScreen} options={{ headerTitle: "Messages" }}/>
+      <MessageScreenStack.Screen name="MessageScreen" component={MessageScreen} options={{ headerTitle: "Messages", headerLeft: Profile,
+          headerRight: SettingsIcon, }}/>
       <MessageScreenStack.Screen name="TabOneScreen"  component={TabOneScreen} options={{ headerTitle: 'Tab One Title' }}/>
     </MessageScreenStack.Navigator>
   )
